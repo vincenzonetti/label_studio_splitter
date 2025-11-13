@@ -110,7 +110,7 @@ If you prefer using VS Code’s debugger, create or modify `.vscode/launch.json`
             "program": "main.py",
             "console": "integratedTerminal",
             "args": [
-                "-f=/home/vincenzo/Desktop/Uni/thesis/unitn-polarized-camera/AI/Object_Detection/datasets/phone_detection/base_2k_img",
+                "-f=base_dir",
                 "-c=Phone hand",
                 "-o=./tmp",
                 "-s", "75", "10", "15"
@@ -160,4 +160,5 @@ Output folders will be ready for YOLOv5 or COCO-compatible frameworks.
 
 * Adjust naming of split folders (e.g., `train2017`) by editing the last part of `convert.py`.
 * Add more exports (`PascalVOC`, `YOLOv8`, etc.) via `pylabel` if needed.
+
 
